@@ -36,4 +36,3 @@ Linea 3"""
     print(penultimo)
 
     print(multilinea)
-string_methods
