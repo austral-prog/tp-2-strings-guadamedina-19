@@ -55,9 +55,9 @@ def ficha():
 
     print(f"Dominio: {email.lower() [arroba + 1 : :]}")
 
-    print(f"Nombre para archivo: {nombrestrip.replace(" ","_").title()}")
+    print(f"Nombre para archivo: {nombrestrip.replace(' ', '_').title()}")
 
-    print(f"Cantidad de a: {nombre.lower().count("a")}")
+    print(f"Cantidad de a: {nombre.lower().count('a')}")
 
     print(f"Codigo secreto: {nombrestrip.upper() [: : -1]}")
     print(f"Nota 1: {nota_1}")
@@ -74,7 +74,6 @@ def ficha():
     print(f"Promedio entero: {promedio_entero}")
 
     print("="* 24 )
-
 
 
 
