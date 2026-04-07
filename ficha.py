@@ -1,6 +1,3 @@
-from gettext import find
-
-
 def ficha():
     """Ejercicio integrador. Lee nombre, email y 3 notas, y genera una ficha
     de alumno aplicando: strip, title, lower, upper, int, len, find, slicing,
